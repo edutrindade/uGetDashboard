@@ -1,0 +1,65 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://www.w3schools.com/w3css/4/w3.css";
+@import "https://fonts.googleapis.com/css?family=Inconsolata";
+
+.navbar2 {
+  width: 101%;
+  height: 50px;
+  background-color: rgb(36, 35, 116) !important;
+  overflow: auto;
+}
+
+.navbar2 a {
+  width: 15% !important;
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar2 a:hover {
+  background-color: rgb(18, 17, 39);
+}
+
+.Link:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(18, 17, 39);
+}
+
+.active {
+  background-color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 500px) {
+  .navbar2 a {
+    float: none;
+    display: block;
+  }
+}
+
+#icon-color {
+  margin-left: 50px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #ccc;
+  font-size: 1.5em;
+}
+
+.avatar2 {
+  vertical-align: middle;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(18, 17, 39);
+}
+
+.avatar2-name {
+  margin-top: 7px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
